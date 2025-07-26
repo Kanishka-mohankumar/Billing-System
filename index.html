@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POS System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="order-summary">
+        <h3 id="total-price-header">Total Price: $<span id="total-price">0.00</span></h3>
+        <table class="order-table" id="order-table">
+          <thead>
+            <tr>
+              <th>ITEM</th>
+              <th>QUANTITY</th>
+              <th>UNIT PRICE</th>
+              <th>TOTAL PRICE</th>
+            </tr>
+          </thead>
+          <tbody id="order-items"></tbody>
+        </table>
+        <table class="summary-table" id="summary-table" style="display: none;">
+          <tr class="highlight-top-middle">
+            <td colspan="2">Order Summary</td>
+          </tr>
+          <tr>
+            <td class="label">GST AMOUNT</td>
+            <td class="value" id="gst-amount">$0.00</td>
+          </tr>
+          <tr>
+            <td class="label">PAYABLE</td>
+            <td class="value payable" id="payable-amount">$0.00</td>
+          </tr>
+          <tr>
+            <td class="label">TENDER</td>
+            <td class="value" id="tender-amount">$0.00</td>
+          </tr>
+          <tr>
+            <td class="label">CHANGE</td>
+            <td class="value" id="change-amount">$0.00</td>
+          </tr>
+          <tr>
+            <td class="label">Transaction ID</td>
+            <td class="value" id="transaction-id">N/A</td>
+          </tr>
+          <tr>
+            <td class="label">Timestamp</td>
+            <td class="value" id="bill-timestamp">N/A</td>
+          </tr>
+        </table>
+        <div class="receipt-preview" id="receipt-preview"></div>
+      </div>
+      <div class="input-controls">
+        <input type="text" id="item-number" placeholder="Item Number" aria-label="Item number">
+        <input type="number" id="quantity" placeholder="Quantity" aria-label="Quantity" min="1">
+        <button class="green" id="add-item" aria-label="Add item to order">Add</button>
+        <div class="keypad">
+          <button aria-label="Language selection">Language</button>
+          <button data-value="7">7</button>
+          <button data-value="8">8</button>
+          <button data-value="9">9</button>
+          <button aria-label="Table number">Table No</button>
+          <button data-value="4">4</button>
+          <button data-value="5">5</button>
+          <button data-value="6">6</button>
+          <button aria-label="Number of covers">No of Cover</button>
+          <button data-value="1">1</button>
+          <button data-value="2">2</button>
+          <button data-value="3">3</button>
+          <button class="orange" id="ac" aria-label="Clear all inputs">AC</button>
+          <button data-value="0">0</button>
+          <button data-value=".">.</button>
+          <button data-value="-">-</button>
+          <button class="orange" id="clear" aria-label="Clear current input">Clear</button>
+        </div>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="search-categories">
+        <input type="text" id="search-items" placeholder="Search items..." aria-label="Search items">
+        <div class="custom-dropdown" id="category-filter">
+          <div class="dropdown-toggle" aria-label="Filter by period">
+            <span>--Select--</span>
+            <span>▼</span>
+          </div>
+          <div class="dropdown-menu">
+            <div class="dropdown-item selected" data-value="--Select--">--Select--</div>
+            <div class="dropdown-item" data-value="Today">Today</div>
+            <div class="dropdown-item" data-value="Yesterday">Yesterday</div>
+            <div class="dropdown-item" data-value="This Week">This Week</div>
+            <div class="dropdown-item" data-value="Last Week">Last Week</div>
+            <div class="dropdown-item" data-value="This Month">This Month</div>
+            <div class="dropdown-item" data-value="Last Month">Last Month</div>
+            <div class="dropdown-item" data-value="Custom">Custom</div>
+          </div>
+        </div>
+        <div class="date-filter" id="date-filter" style="display: none;">
+          <input type="date" id="from-date" aria-label="From date">
+          <input type="date" id="to-date" aria-label="To date">
+        </div>
+      </div>
+      <div class="item-grid" id="item-grid"></div>
+      <div class="action-buttons">
+        <button class="orange" id="new-bill">New Bill</button>
+        <button class="orange">Price Amendment</button>
+        <button class="orange" data-tender="2">$2</button>
+        <button class="orange" data-tender="10">$10</button>
+        <button class="green" id="goods-return">Goods Return</button>
+        <button class="green">Open Cash Box</button>
+        <button class="green">Terminate Transaction</button>
+        <button class="green" id="print-receipt">Print</button>
+        <button class="green" id="cancel-item">Cancel Item</button>
+        <button class="green">Add Item</button>
+        <button class="orange" data-tender="5">$5</button>
+        <button class="orange" data-tender="50">$50</button>
+        <button class="orange" id="bill-history-button">Bill History</button>
+        <button class="green">Reserved Transaction</button>
+        <button class="green" id="delete-all">Delete ALL Transaction</button>
+        <button class="green" id="bill-button">Bill</button>
+        <button class="green">Restore</button>
+        <button class="green">Delete Transaction</button>
+        <button class="green">Main Menu</button>
+      </div>
+    </div>
+    <div class="bills-view-panel" id="bills-view-panel" style="display: none;"></div>
+    <div class="sales-view-panel" id="sales-view-panel" style="display: none;"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
