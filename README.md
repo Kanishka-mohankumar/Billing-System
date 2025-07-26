@@ -17,6 +17,14 @@ The **Advanced Billing System** is a full-featured web-based application develop
   - Apply discounts, taxes (GST/VAT), and custom terms  
   - Auto-increment invoice numbers  
   - Support for product/service billing  
+  - **Print bill receipt dynamically**  
+  - **Automatically calculates subtotal, tax, tender amount, and change**  
+
+- **➕ Item Management**:
+  - Add items through item number or name  
+  - Cancel/remove the last added item  
+  - Delete all transactions with a single click  
+  - Product list stored in `items.json`  
 
 - **📦 Product & Inventory Module**:
   - Manage products or services with pricing and stock levels  
@@ -26,6 +34,8 @@ The **Advanced Billing System** is a full-featured web-based application develop
 - **📊 Reports & Analytics**:
   - Sales reports (daily, monthly, yearly)  
   - Outstanding payments report  
+  - **Order Summary**: View orders placed today, yesterday, and all-time  
+  - **Bill History** with timestamps  
 
 - Responsive and intuitive UI  
 - Built for speed and offline use  
@@ -35,10 +45,8 @@ The **Advanced Billing System** is a full-featured web-based application develop
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla or Framework)  
-- **Backend**: PHP / Node.js  
-- **Database**: MySQL or SQLite (local)  
-- **Reporting**: Chart.js or Google Charts (optional)  
+- **Frontend**: HTML5, CSS3, JavaScript    
+- **Database**: Locally stored info    
 - **Version Control**: Git & GitHub  
 
 ---
