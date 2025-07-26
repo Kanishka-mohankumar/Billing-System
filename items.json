@@ -1,0 +1,20 @@
+[
+  { "name": "Lipstick", "price": 16.50, "category": "Makeup", "image": "https://tse3.mm.bing.net/th?id=OIP.d1HLRIZXyxy0sbUAIeqXkwHaHa&pid=Api&P=0&h=180" },
+  { "name": "Foundation", "price": 22.30, "category": "Makeup", "image": "https://sp.yimg.com/ib/th?id=OPAC.Wt87LZS3uAoueA474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Mascara", "price": 11.20, "category": "Makeup", "image": "https://sp.yimg.com/ib/th?id=OPAC.GKCPv02DX9dZvA474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Eyeshadow", "price": 15.50, "category": "Makeup", "image": "https://sp.yimg.com/ib/th?id=OPAC.12AUcL252eFecA474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Blush", "price": 11.70, "category": "Makeup", "image": "https://sp.yimg.com/ib/th?id=OPAC.B5zpmTbF%2bGc9Zw474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Face Cleanser", "price": 16.10, "category": "Cleansers", "image": "https://sp.yimg.com/ib/th?id=OPAC.BKRWquhJNEvqUQ474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Moisturizer", "price": 27.00, "category": "Skincare", "image": "https://sp.yimg.com/ib/th?id=OPAC.cDn5iYb6pFyyCA474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Serum", "price": 30.00, "category": "Skincare", "image": "https://sp.yimg.com/ib/th?id=OPAC.P9l0nAz8cLEF1w474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Shampoo", "price": 12.50, "category": "Haircare", "image": "https://sp.yimg.com/ib/th?id=OPAC.TL2o6aUd%2foRP1A474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Conditioner", "price": 12.50, "category": "Haircare", "image": "https://sp.yimg.com/ib/th?id=OPAC.8E0s6V6BILomnQ474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Hair Mask", "price": 17.00, "category": "Haircare", "image": "https://sp.yimg.com/ib/th?id=OPAC.PITtlaFsQRF9OQ474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Perfume", "price": 45.00, "category": "Fragrance", "image": "https://sp.yimg.com/ib/th?id=OPAC.NVxTcJfsTneDWA474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Nail Polish", "price": 8.50, "category": "Nailcare", "image": "https://sp.yimg.com/ib/th?id=OPAC.PdQHlzPLbLEtwg474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Nail Remover", "price": 5.00, "category": "Nailcare", "image": "https://sp.yimg.com/ib/th?id=OPAC.VVebt6x2celd0g474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Makeup Brushes", "price": 20.00, "category": "Tools", "image": "https://sp.yimg.com/ib/th?id=OPAC.LBDGLqpK6z2csw474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Hairbrush", "price": 10.00, "category": "Tools", "image": "https://sp.yimg.com/ib/th?id=OPAC.gpr4huCmX2jajA474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Body Lotion", "price": 15.00, "category": "Bodycare", "image": "https://sp.yimg.com/ib/th?id=OPAC.8ZXpAiHMttgK1g474C474&o=5&pid=21.1&w=174&h=174" },
+  { "name": "Sunscreen", "price": 18.00, "category": "Skincare", "image": "https://sp.yimg.com/ib/th?id=OPAC.qy7E3yDzhhFY3A474C474&o=5&pid=21.1&w=174&h=174" }
+]
