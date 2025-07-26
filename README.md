@@ -1,6 +1,6 @@
 # 💳 Advanced Billing System
 
-A powerful and user-friendly billing system designed to streamline invoice generation and provide detailed sales analytics. Built for small to medium businesses, this system ensures fast, accurate, and efficient billing operations.
+A powerful and user-friendly billing system designed to streamline invoice generation and provide detailed sales analytics. Built for medium to large businesses, this system ensures fast, accurate, and efficient billing operations.
 
 ---
 
